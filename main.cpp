@@ -1,6 +1,8 @@
-#include "add.h"
+import add;
 #include <iostream>
 #include <limits>
+#include <unordered_map>
+#include <vector>
 
 //Testing Github Cloning and Committing.
 double calculateHeight(){
@@ -52,5 +54,9 @@ int main () {
 	std::cout << "This program was coded by Can Coshkun. Press enter to exit.\n";
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	std::cin.get();
+	
+
+	std::cout << add(5, 10) << std::endl; // Example usage of the add function
 	return 0;
 }
+
