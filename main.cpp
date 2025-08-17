@@ -1,4 +1,4 @@
-import add;
+//import add;
 #include <iostream>
 #include <limits>
 #include <unordered_map>
@@ -56,7 +56,7 @@ int main () {
 	std::cin.get();
 	
 
-	std::cout << add(5, 10) << std::endl; // Example usage of the add function
+	//std::cout << add(5, 10) << std::endl; // Example usage of the add function
 	return 0;
 }
 
