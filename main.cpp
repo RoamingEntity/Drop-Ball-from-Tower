@@ -2,7 +2,7 @@
 #include <iostream>
 #include <limits>
 
-
+//Testing Github Cloning and Committing.
 double calculateHeight(){
 	
 	double heightInput{};
